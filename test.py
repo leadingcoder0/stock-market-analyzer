@@ -17,7 +17,7 @@ for t in ticker_list:
   firstDataValue = data[t]["Open"][1]
   secondDataValue = data[t]["Open"][10]
 
-  print("The price change from index 10 to 1 of " + t + " is " + str(firstDataValue) + " - " + str(secondDataValue) + " = " + str(firstDataValue - secondDataValue))
+  print("price change from index 10 to 1 of " + t + " is " + str(firstDataValue) + " - " + str(secondDataValue) + " = " + str(firstDataValue - secondDataValue))
 
   #for index, row in data[t]["Open"].iteritems():
     #print(index, row)
